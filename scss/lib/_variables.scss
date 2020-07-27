@@ -1,0 +1,93 @@
+/*------------------------------------------------*\
+                    $colors
+\---------------------------------------------------*\
+
+ *branding Colors  */
+ 
+ $color-barras:#232f3e;
+ $color-font-nav-bar:white;
+ $color-backgroun-item:#ffffff;
+ $color-body:#eaeded;
+ $color-links:#0066c0;
+ $color-precios:#cc1c39;
+
+
+
+ /* tipografias*/
+
+ @import url(//db.onlinewebfonts.com/c/02fcddff61b677f4989d2933d574ca89?family=Amazon+Ember);
+
+ $font-basic-Amazon: "Amazon Ember",Arial,sans-serif;
+ $font-size-title:28px;
+ $font-size-prices:17px;
+ $line-height-title:1.2;
+ $line-height-body:19px;
+ 
+
+ /*botones*/
+ $color-button-buy: #f0c14b;
+ $border-style-btn:solid;
+ $boder-color-btn:#000000;
+ $color-button-normal:rgba(255,255,255,.6);
+
+
+
+
+
+ /*constantes*/
+$font-sise-body:13px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* variables la pagina de inicio*/
+$font-size-vitrina: 35px;
+$ancho-vitrina:100%;
+$centered-title-vitrina:center;
+
+
+/*variables muestrario*/
+
+$margin-muestrario: 25px;
+$display-muestrario:flex;
+$minimo-height-muestrario: 500px;
+$background-muestrario:#ffffffb7;
+$contenido-muestrario:center;
+
+
+/*variables cajon*/
+$alto-cajon:0 auto;
+$ancho-cajon:50%;
+$margin-cajon:10px;
+$background-cajon:#f5ebeb;
+$border-radius-cajon: 12px;
+
+
+
+
+
+ 
+
+ 
+
+
+
+/*header*/
+$ancho-header:100%;
+$height-header:95px;
+

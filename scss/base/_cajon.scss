@@ -1,0 +1,16 @@
+.cajon{
+
+    margin:$margin-cajon;
+    background-color: $background-cajon;
+    border-radius:$border-radius-cajon;
+    min-height: $alto-cajon;
+    width: $ancho-cajon;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cajon-tipogrfias{
+    @extend .cajon;
+    color: black;
+}
+

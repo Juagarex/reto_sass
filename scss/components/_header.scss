@@ -1,0 +1,80 @@
+.header{
+    background-color: $color-barras;
+    width: $ancho_header;
+    border: 1px solid red ;
+    border-radius: 0;
+    height:$height-header;
+    display: flex;
+   
+    
+
+}
+
+.header nav{
+    width: 100%;
+    display: flex;
+     justify-content: space-around
+    
+
+}
+
+.header   ol{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+.header li{
+    display: flex;
+    color: white;
+    padding: 5px;
+    margin:5px;
+    
+}
+
+header li:hover{
+    border: 1px solid white;
+}
+
+
+
+.logo{
+    display: flex;
+    width: 200px;
+    height: 0 auto;
+   
+    margin:5px;
+}
+
+.logo img{ 
+    width: 100%;
+    justify-self: center;
+    margin: 10px;
+
+
+}
+
+.icon{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon img{
+    
+    width: 30px;
+    height: 30px;
+}
+
+.busqueda{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.busqueda-input{
+    border-radius: 2px;
+}

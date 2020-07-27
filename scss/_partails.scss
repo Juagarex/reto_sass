@@ -1,0 +1,32 @@
+
+/*------------------------------------*\
+    $PARTIALS
+\*------------------------------------*/
+/**
+ * All files to be compiled
+ */
+
+/**
+* Scss Libraries, mixins, functions and any Scss focused logic
+**/
+
+@import "lib/settings";
+@import "lib/variables";
+@import "lib/index";
+
+
+
+
+//base
+  @import  "base/vitrina";
+   @import "base/muestrario";
+   @import "base/cajon";
+   @import "base/botones";
+   @import "base/button";
+   @import "base/tipografia";
+
+
+
+   //componetes
+
+   @import "components/header";

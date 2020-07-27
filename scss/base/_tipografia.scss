@@ -1,0 +1,48 @@
+
+@each   $header,
+$margin-bot,
+$font-size,
+$line-height
+in  (h1, 5, 2.0, 1.5)
+    (h2, 0, 1.8, 1.5)
+    (h3, 0, 1.6, 1.5)
+    (h4, 0, 1.4, 1.5)
+    (h5, 0, 1.2, 1.5)
+    (h6, 0, 1.0, 1.5){
+
+#{$header}, .#{$header} {
+margin-bottom : $margin-bot;
+font-size: ($font-size) * 1rem;
+line-height : $line-height;
+font-family: $font-basic-Amazon;
+line-height: $line-height-title;
+
+}
+}
+
+.p-description {
+    font-size: $font-sise-body;
+    line-height: $line-height-body;
+    color: $boder-color-btn;
+
+}
+ .p-price{
+    font-size: $font-size-prices;
+    line-height: $line-height-body;
+    color: $boder-color-btn;
+ }
+
+ .a-link{
+     color: $color-links;
+     cursor: pointer;
+     text-decoration: none;
+ }
+
+ .a-link a:visited {
+     color: $boder-color-btn;
+     
+     
+
+ }
+
+

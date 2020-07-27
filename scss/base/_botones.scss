@@ -1,0 +1,35 @@
+@import "button";
+/*------------------------------------*\
+    $BOTONES
+\*------------------------------------*/
+/*
+ * Definimos los botones y sus variantes
+ */
+
+
+ /**
+ * .btn es la clase principal para definir un botón
+ */
+.btn-compra {
+    @extend %btn;
+    background-color: $color-button-buy;
+    border-color: $boder-color-btn;
+    border-style: $border-style-btn;
+    border-width: 1px;
+
+}
+
+.btn-compra:hover{
+
+cursor: pointer;
+filter:grayscale(10%);
+
+}
+
+
+.btn-normal{cursor: pointer;
+    filter:grayscale(10%);
+
+
+
+}

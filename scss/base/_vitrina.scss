@@ -1,0 +1,21 @@
+
+.vitrina{
+    margin-top: 20px;
+    width: $ancho-vitrina;
+    font-size:$ancho-vitrina;
+    text-align: $centered-title-vitrina;
+    display: flex;
+    justify-content: center;
+    background-color: $color-barras;
+    color: $color-precios;
+    border-radius: 15px;
+  flex-direction: column;
+    
+
+ }
+
+ .muestrario{
+     width: $ancho-vitrina;
+     display: flex;
+
+ }

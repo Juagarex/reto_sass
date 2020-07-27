@@ -1,0 +1,9 @@
+.muestrario{
+    width: $ancho-vitrina;
+    display: flex;
+    background-color:$background-muestrario;
+    min-height:$minimo-height-muestrario;
+    justify-content: $contenido-muestrario;
+    
+
+}
