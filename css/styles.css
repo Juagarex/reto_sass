@@ -46,8 +46,8 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  background-color: #232f3e;
-  color: #cc1c39;
+  background-color: #5FA6FF;
+  color: #484848;
   border-radius: 15px;
   flex-direction: column;
 }
@@ -263,4 +263,41 @@ header li:hover {
 
 .busqueda-input {
   border-radius: 2px;
+}
+
+.container_categories {
+  width: 100%;
+  height: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.categories {
+  width: auto;
+  background-color: white;
+}
+
+.container_categories h4 {
+  text-align: left;
+}
+
+.categories__title {
+  font-size: 21px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.categories__img {
+  width: 100%;
+}
+
+.categories__img img {
+  width: 90%;
+}
+
+.categories__link {
+  display: flex;
+  padding: 15px;
+  justify-content: left;
+  margin: 10px 0px;
 }
