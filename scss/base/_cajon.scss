@@ -14,3 +14,9 @@
     color: black;
 }
 
+.cajon-Item{
+    @extend.cajon;
+    width: 90%;
+    
+}
+

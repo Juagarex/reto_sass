@@ -27,9 +27,18 @@ filter:grayscale(10%);
 }
 
 
-.btn-normal{cursor: pointer;
+.btn-normal:hover{
+    cursor: pointer;
     filter:grayscale(10%);
+}
 
-
-
+.btn-add-card{
+    @extend %btn;
+    background: linear-gradient(to bottom,#f6c88f,#ed9220);
+    border-color: $boder-color-btn;
+    margin-top: 9px;
+}
+.btn-add-card:hover{
+    cursor: pointer;
+    filter:grayscale(40%);
 }

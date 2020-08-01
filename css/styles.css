@@ -50,6 +50,7 @@
   color: #484848;
   border-radius: 15px;
   flex-direction: column;
+  align-items: center;
 }
 
 .muestrario {
@@ -65,7 +66,7 @@
   justify-content: center;
 }
 
-.cajon, .cajon-tipogrfias {
+.cajon, .cajon-Item, .cajon-tipogrfias {
   margin: 10px;
   background-color: #f5ebeb;
   border-radius: 12px;
@@ -79,11 +80,15 @@
   color: black;
 }
 
-.btn-compra {
+.cajon-Item {
+  width: 90%;
+}
+
+.btn-add-card, .btn-compra {
   display: block;
   font-size: 13px;
   line-height: 29px;
-  margin: 0;
+  margin: 5px;
   outline: 0;
   padding: 0 10px 0 11px;
   text-align: center;
@@ -111,16 +116,27 @@
   filter: grayscale(10%);
 }
 
-.btn-normal {
+.btn-normal:hover {
   cursor: pointer;
   filter: grayscale(10%);
 }
 
-.btn-compra {
+.btn-add-card {
+  background: linear-gradient(to bottom, #f6c88f, #ed9220);
+  border-color: #000000;
+  margin-top: 9px;
+}
+
+.btn-add-card:hover {
+  cursor: pointer;
+  filter: grayscale(40%);
+}
+
+.btn-compra, .btn-add-card {
   display: block;
   font-size: 13px;
   line-height: 29px;
-  margin: 0;
+  margin: 5px;
   outline: 0;
   padding: 0 10px 0 11px;
   text-align: center;
@@ -187,6 +203,13 @@ h6, .h6 {
   color: #000000;
 }
 
+.p-price-Item {
+  color: #B12704;
+  font-size: 12px;
+  font-size: 17px;
+  line-height: 19px;
+}
+
 .a-link {
   color: #0066c0;
   cursor: pointer;
@@ -195,6 +218,18 @@ h6, .h6 {
 
 .a-link a:visited {
   color: #000000;
+}
+
+.li-description {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 2px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.p-aviso {
+  color: #ff0000;
 }
 
 .header {
@@ -300,4 +335,71 @@ header li:hover {
   padding: 15px;
   justify-content: left;
   margin: 10px 0px;
+}
+
+.articule {
+  width: 100%;
+  height: 0 auto;
+  display: flex;
+  background-color: white;
+  padding: 5px;
+}
+
+.miniatures {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+.miniaturesItem {
+  margin: 5px;
+  width: 80%;
+  padding: 5px;
+}
+
+.miniaturesItem:hover {
+  border: 1px solid black;
+}
+
+.miniaturesItem img {
+  width: 100%;
+}
+
+.images {
+  width: 100%;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.images img {
+  width: 80%;
+}
+
+.descriptionItem {
+  width: 90%;
+  text-align: left;
+  margin: 10px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.descriptioItem__title {
+  border-bottom: 1px solid black;
+  font-size: 12px;
+}
+
+.prices {
+  border: 1px solid black;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
